@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-R">
+    <title>Processed Frame Viewer</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        img { max-width: 640px; border: 1px solid #ccc; }
+        #stats { margin-top: 10px; }
+        #stats span { font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>R&D Web Viewer</h1>
+    <img id="processed-image" src="" alt="Processed Frame" />
+    <div id="stats">
+        <p>Resolution: <span id="res-value">--</span></p>
+        <p>Mock FPS: <span id="fps-value">--</span></p>
+    </div>
+
+    <script src="dist/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    /* BASIC OPTIONS FOR A BROWSER PROJECT
+    */
+    "target": "es6",                          // Compile to modern JavaScript (ES6)
+    "module": "es6",                          // Use browser-compatible ES6 modules
+    "outDir": "./dist",                       // Put compiled .js files in a 'dist' folder
+    "rootDir": "./src",                       // Your TypeScript code is in the 'src' folder
+    "strict": true,                           // Enable all strict type-checking
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* These options are good but not strictly needed for this to work */
+    "esModuleInterop": true
+  },
+  "include": [
+    "src/**/*" // Only compile files that are in the 'src' folder
+  ]
+}
